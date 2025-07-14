@@ -9,7 +9,6 @@ namespace CS_studying
     public class Student : User
     {
         public List<Course> Courses { get; set; }
-        public List<Certificate> Certificates { get; set; }
 
         public Student()
         {
